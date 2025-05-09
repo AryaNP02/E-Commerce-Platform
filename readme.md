@@ -56,6 +56,6 @@ NOTE:  You can destroy and import  data while keeping the server on .
  -  sudo lsof -i :5000
  - sudo kill -9 <pid>
 
-## How Q5 is integrated 
+## Advertisement is integrated 
  - The advertisement is called externally and displayed in the carousel feature using a promise call.
 - The product catalog articles are implemented through an external function. By running npm run data:import, items are loaded from data/product.js, which is an external JSON file.
